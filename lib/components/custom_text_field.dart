@@ -19,7 +19,7 @@ class CustomTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        horizontal: 30.0,
+        horizontal: 20.0,
       ),
       child: TextFormField(
         obscureText: hint == 'Enter your password' ? true : false,
