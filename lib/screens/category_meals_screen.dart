@@ -92,7 +92,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
                   },
                   child: MealItem(
                     name: categoryMeals[index].name,
-                    imageURL: 'assets/images/belady_job_${index + 1}.jpg',
+                    imageURL: categoryMeals[index].imageUrl,
                     title: categoryMeals[index].title,
                     nLike: categoryMeals[index].nLike,
                     nComment: categoryMeals[index].nComment,
